@@ -1,0 +1,12 @@
+  20/200 corners  (409 s)
+  40/200 corners  (819 s)
+  60/200 corners  (1216 s)
+  80/200 corners  (1772 s)
+  100/200 corners  (2336 s)
+  120/200 corners  (2836 s)
+  140/200 corners  (3389 s)
+  160/200 corners  (3966 s)
+  180/200 corners  (4648 s)
+  200/200 corners  (5308 s)
+51200 simulations; failed: 0, logic errors: 0, max KCL mismatch: 8.4e-08
+saved results/circuit_spice.csv; leakage median 5.384e-06 A, range 4.410e-07 .. 3.110e-05 A

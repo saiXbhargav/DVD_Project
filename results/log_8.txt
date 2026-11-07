@@ -1,0 +1,13 @@
+circuit     n  spice_median_A  ml_median_A  bias_pct  mean_abs_err_pct  median_err_pct  p95_err_pct  accuracy_pct
+parity8 51200       5.384e-06    5.199e-06    -3.668             4.667           4.075        11.24         95.33
+ ones     n  spice_median_A  ml_median_A  bias_pct  mean_abs_err_pct  median_err_pct  p95_err_pct  accuracy_pct
+    0   200        5.11e-06    4.841e-06    -4.493             5.318           4.755        12.66         94.68
+    1  1600       5.153e-06    4.904e-06    -4.128             5.014           4.509        11.85         94.99
+    2  5600       5.322e-06     5.12e-06    -3.723              4.74           4.188         11.6         95.26
+    3 11200       5.348e-06     5.17e-06    -3.677             4.684           4.128        11.39         95.32
+    4 14000       5.314e-06    5.191e-06    -3.583             4.592           3.976        10.88         95.41
+    5 11200       5.362e-06    5.275e-06    -3.635             4.625           4.018        10.94         95.38
+    6  5600       5.529e-06    5.284e-06    -3.633             4.647           4.016        11.25         95.35
+    7  1600       5.534e-06    5.309e-06    -3.819             4.816           4.144        11.68         95.18
+    8   200       5.662e-06    5.298e-06    -4.083             5.072           4.477        12.42         94.93
+saved results/circuit_ml.csv, results/circuit_results.csv, figures/circuit_parity.png

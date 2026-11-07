@@ -1,0 +1,2 @@
+circuit,n,spice_median_A,ml_median_A,bias_pct,mean_abs_err_pct,median_err_pct,p95_err_pct,accuracy_pct
+parity8,51200,5.384e-06,5.199e-06,-3.668,4.667,4.075,11.24,95.33
