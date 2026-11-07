@@ -1,0 +1,21 @@
+nmos_on   PolyRidge    val mean-median  11.18%  id:12.30/38.4 ig:6.98/28.4 is:12.32/38.7 ib:13.14/43.8  (0.1s)
+nmos_on   LightGBM     val mean-median   5.42%  id:3.65/28.3 ig:5.76/20.3 is:3.65/27.5 ib:8.64/29.3  (8.7s)
+nmos_on   MLP          val mean-median   3.10%  id:2.76/15.5 ig:3.58/13.9 is:2.90/15.5 ib:3.15/11.0  (22.5s)
+nmos_on   GP           val mean-median   0.47%  id:0.52/4.2 ig:0.37/5.9 is:0.50/4.0 ib:0.49/3.0  (390.1s)
+  -> chosen GP; test mean-median 0.49%
+nmos_off  PolyRidge    val mean-median  19.28%  id:28.55/322.3 ig:1.13/5.0 is:26.39/326.1 ib:21.05/49.1  (0.1s)
+nmos_off  LightGBM     val mean-median   5.63%  id:9.04/69.2 ig:3.34/11.9 is:9.01/65.1 ib:1.11/21.5  (11.4s)
+nmos_off  MLP          val mean-median   2.58%  id:3.53/24.5 ig:1.63/9.2 is:3.46/24.3 ib:1.69/24.5  (28.2s)
+nmos_off  GP           val mean-median   0.37%  id:0.66/10.5 ig:0.00/0.0 is:0.62/8.9 ib:0.18/21.4  (589.6s)
+  -> chosen GP; test mean-median 0.38%
+pmos_on   PolyRidge    val mean-median  11.35%  id:10.60/32.7 ig:10.67/44.4 is:10.57/32.6 ib:13.57/50.6  (0.1s)
+pmos_on   LightGBM     val mean-median   6.54%  id:3.35/26.9 ig:10.29/40.6 is:3.41/27.1 ib:9.11/31.4  (8.7s)
+pmos_on   MLP          val mean-median   4.27%  id:5.53/13.5 ig:2.78/14.3 is:5.51/13.9 ib:3.24/13.6  (25.4s)
+pmos_on   GP           val mean-median   0.40%  id:0.54/3.3 ig:0.10/1.0 is:0.52/3.2 ib:0.42/2.5  (418.4s)
+  -> chosen GP; test mean-median 0.38%
+pmos_off  PolyRidge    val mean-median  25.64%  id:14.39/330.7 ig:51.92/1216.4 is:16.15/1257.2 ib:20.11/51.3  (0.1s)
+pmos_off  LightGBM     val mean-median  18.76%  id:19.12/280.0 ig:34.95/1267.7 is:19.54/1186.5 ib:1.42/21.1  (11.1s)
+pmos_off  MLP          val mean-median  14.78%  id:16.24/281.5 ig:20.23/1283.0 is:17.42/1239.7 ib:5.22/30.5  (13.8s)
+pmos_off  GP           val mean-median   5.60%  id:9.62/370.4 ig:2.57/72.5 is:9.72/1137.0 ib:0.49/20.1  (550.9s)
+  -> chosen GP; test mean-median 6.08%
+saved results/model_comparison_val.csv, results/chosen_models_test.csv, models_trained/*.joblib
