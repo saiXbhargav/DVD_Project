@@ -1,0 +1,56 @@
+===== waiting for run2.sh Monday 09 November 2026 10:57:05 PM IST
+===== fresh_check Tuesday 10 November 2026 01:41:07 AM IST
+fresh nmos_on: 2000 rows
+fresh nmos_off: 2000 rows
+fresh pmos_on: 2000 rows
+fresh pmos_off: 2000 rows
+fresh gate SPICE: 1800 sims, failed 0
+  fresh parity SPICE: 20/100 corners (559 s)
+  fresh parity SPICE: 40/100 corners (1116 s)
+  fresh parity SPICE: 60/100 corners (1653 s)
+  fresh parity SPICE: 80/100 corners (2084 s)
+  fresh parity SPICE: 100/100 corners (2517 s)
+fresh parity SPICE: 25600 sims, failed 0, logic errors 0
+composition (sum of SPICE NAND2 vs SPICE circuit): accuracy 97.71%, median 1.79%, bias -1.79%
+FRESH official_GP7k gates 95.13% (med 2.20%, p95 12.18%) | parity 95.08% (med 4.12%, bias -3.77%)
+FRESH GPBag87       gates 97.03% (med 0.74%, p95 7.35%) | parity 97.14% (med 2.11%, bias -1.86%)
+FRESH GPX           gates 98.61% (med 0.71%, p95 5.65%) | parity 97.14% (med 2.14%, bias -1.92%)
+FRESH MLP87         gates 97.38% (med 1.54%, p95 8.84%) | parity 96.38% (med 2.90%, bias -1.49%)
+FRESH GPX+MLP       gates 98.23% (med 0.97%, p95 6.62%) | parity 97.05% (med 2.44%, bias -1.86%)
+FRESH GPX|ON:MLP    gates 98.67% (med 0.69%, p95 5.42%) | parity 97.14% (med 2.13%, bias -1.92%)
+FRESH GPX|ON:blend  gates 98.64% (med 0.71%, p95 5.58%) | parity 97.14% (med 2.14%, bias -1.92%)
+FRESH CHECK DONE
+fresh check total 2864 s
+===== size_study Tuesday 10 November 2026 02:28:52 AM IST
+===== 2000 rows
+  trained nmos_on on 2000 rows in 491 s
+  trained nmos_off on 2000 rows in 195 s
+  trained pmos_on on 2000 rows in 446 s
+  trained pmos_off on 2000 rows in 119 s
+SIZE   2000: transistor val nmos_on 0.67% nmos_off 0.76% pmos_on 0.52% pmos_off 6.94% | gates val 92.00% test 92.04% | parity 90.29%
+===== 4000 rows
+  trained nmos_on on 4000 rows in 509 s
+  trained nmos_off on 4000 rows in 368 s
+  trained pmos_on on 4000 rows in 449 s
+  trained pmos_off on 4000 rows in 454 s
+SIZE   4000: transistor val nmos_on 0.51% nmos_off 0.49% pmos_on 0.38% pmos_off 6.81% | gates val 93.85% test 94.32% | parity 92.71%
+===== 7000 rows
+  trained nmos_on on 6999 rows in 514 s
+  trained nmos_off on 6999 rows in 513 s
+  trained pmos_on on 6999 rows in 549 s
+  trained pmos_off on 6999 rows in 575 s
+SIZE   7000: transistor val nmos_on 0.41% nmos_off 0.36% pmos_on 0.33% pmos_off 5.68% | gates val 96.85% test 96.87% | parity 95.71%
+===== 27000 rows
+  trained nmos_on on 26999 rows in 551 s
+  trained nmos_off on 26999 rows in 595 s
+  trained pmos_on on 26999 rows in 645 s
+  trained pmos_off on 26999 rows in 810 s
+SIZE  27000: transistor val nmos_on 0.32% nmos_off 0.27% pmos_on 0.28% pmos_off 5.12% | gates val 97.78% test 97.66% | parity 96.72%
+===== 47000 rows
+  trained nmos_on on 46999 rows in 699 s
+  trained pmos_on on 46999 rows in 659 s
+SIZE  47000: transistor val nmos_on 0.30% nmos_off 0.29% pmos_on 0.27% pmos_off 3.97% | gates val 96.95% test 96.96% | parity 95.89%
+===== 87000 rows
+SIZE  87000: transistor val nmos_on 0.31% nmos_off 0.26% pmos_on 0.27% pmos_off 3.94% | gates val 98.61% test 98.65% | parity 97.11%
+SIZE STUDY DONE
+===== overnight finished Tuesday 10 November 2026 05:05:16 AM IST
