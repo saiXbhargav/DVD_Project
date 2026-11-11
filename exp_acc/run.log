@@ -1,0 +1,66 @@
+===== gen_data Monday 09 November 2026 01:22:31 PM IST
+nmos_on block 1: 10000 rows, max KCL residual 1.4e-15 A, 24 s
+nmos_on block 2: 10000 rows, max KCL residual 1.2e-15 A, 26 s
+nmos_on block 3: 10000 rows, max KCL residual 1.2e-15 A, 24 s
+nmos_on block 4: 10000 rows, max KCL residual 1.4e-15 A, 28 s
+nmos_off block 1: 10000 rows, max KCL residual 5.3e-19 A, 24 s
+nmos_off block 2: 10000 rows, max KCL residual 1.9e-18 A, 39 s
+nmos_off block 3: 10000 rows, max KCL residual 5.1e-19 A, 27 s
+nmos_off block 4: 10000 rows, max KCL residual 5.1e-19 A, 39 s
+pmos_on block 1: 10000 rows, max KCL residual 5.8e-16 A, 31 s
+pmos_on block 2: 10000 rows, max KCL residual 5.6e-16 A, 26 s
+pmos_on block 3: 10000 rows, max KCL residual 6.0e-16 A, 32 s
+pmos_on block 4: 10000 rows, max KCL residual 5.8e-16 A, 28 s
+pmos_off block 1: 10000 rows, max KCL residual 1.1e-15 A, 35 s
+pmos_off block 2: 10000 rows, max KCL residual 1.2e-15 A, 23 s
+pmos_off block 3: 10000 rows, max KCL residual 1.2e-15 A, 19 s
+pmos_off block 4: 10000 rows, max KCL residual 1.0e-15 A, 25 s
+===== gate_val_spice Monday 09 November 2026 01:30:01 PM IST
+INV: 200 sims, failed 0 (2 s)
+NAND2: 400 sims, failed 0 (6 s)
+NOR2: 400 sims, failed 0 (11 s)
+AND2: 400 sims, failed 0 (11 s)
+OR2: 400 sims, failed 0 (15 s)
+saved exp_acc/out/gate_spice_val.csv
+===== train Monday 09 November 2026 01:30:17 PM IST
+nmos_on GPBag47: 46999 rows, 593 s
+nmos_on GPBag87: 86999 rows, 760 s
+nmos_off GPBag47: 46999 rows, 683 s
+nmos_off GPBag87: 86999 rows, 823 s
+pmos_on GPBag47: 46999 rows, 498 s
+pmos_on GPBag87: 86999 rows, 675 s
+pmos_off GPBag47: 46999 rows, 877 s
+pmos_off GPBag87: 86999 rows, 781 s
+===== evaluate Monday 09 November 2026 03:05:10 PM IST
+nmos_on   GP_7k    val mean-median 0.472%  test 0.488%
+nmos_on   GP_cap   val mean-median 0.460%  test 0.481%
+nmos_on   GPBag47  val mean-median 0.359%  test 0.394%
+nmos_on   GPBag87  val mean-median 0.365%  test 0.402%
+nmos_off  GP_7k    val mean-median 0.366%  test 0.377%
+nmos_off  GP_cap   val mean-median 0.325%  test 0.342%
+nmos_off  GPBag47  val mean-median 0.288%  test 0.304%
+nmos_off  GPBag87  val mean-median 0.261%  test 0.269%
+pmos_on   GP_7k    val mean-median 0.395%  test 0.377%
+pmos_on   GP_cap   val mean-median 0.377%  test 0.377%
+pmos_on   GPBag47  val mean-median 0.351%  test 0.345%
+pmos_on   GPBag87  val mean-median 0.329%  test 0.334%
+pmos_off  GP_7k    val mean-median 5.601%  test 6.083%
+pmos_off  GP_cap   val mean-median 5.175%  test 5.568%
+pmos_off  GPBag47  val mean-median 3.967%  test 4.551%
+pmos_off  GPBag87  val mean-median 3.942%  test 4.294%
+GP_7k_rule     VAL gates acc 95.77% | TEST gates acc 95.58% med 2.16% p95 10.34% | parity acc 95.33% med 4.08% bias -3.67%
+GP_7k_flip     VAL gates acc 95.73% | TEST gates acc 95.50% med 2.23% p95 10.63% | parity acc 95.33% med 4.08% bias -3.67%
+GP_7k_avg      VAL gates acc 95.78% | TEST gates acc 95.57% med 2.17% p95 10.34% | parity acc 95.33% med 4.08% bias -3.67%
+GP_cap_rule    VAL gates acc 97.68% | TEST gates acc 97.68% med 1.26% p95 5.73% | parity acc 96.86% med 2.70% bias -2.28%
+GP_cap_flip    VAL gates acc 97.65% | TEST gates acc 97.65% med 1.31% p95 5.73% | parity acc 96.86% med 2.70% bias -2.28%
+GP_cap_avg     VAL gates acc 97.68% | TEST gates acc 97.69% med 1.26% p95 5.63% | parity acc 96.86% med 2.70% bias -2.28%
+GPBag47_rule   VAL gates acc 96.01% | TEST gates acc 95.91% med 1.66% p95 11.06% | parity acc 95.86% med 3.31% bias -1.97%
+GPBag47_flip   VAL gates acc 95.90% | TEST gates acc 95.81% med 1.82% p95 11.09% | parity acc 95.86% med 3.31% bias -1.97%
+GPBag47_avg    VAL gates acc 95.97% | TEST gates acc 95.87% med 1.70% p95 11.06% | parity acc 95.86% med 3.31% bias -1.97%
+GPBag87_rule   VAL gates acc 97.50% | TEST gates acc 97.37% med 0.71% p95 6.19% | parity acc 97.11% med 2.33% bias -2.10%
+GPBag87_flip   VAL gates acc 97.45% | TEST gates acc 97.31% med 0.81% p95 6.20% | parity acc 97.11% med 2.33% bias -2.10%
+GPBag87_avg    VAL gates acc 97.49% | TEST gates acc 97.35% med 0.75% p95 6.15% | parity acc 97.11% med 2.33% bias -2.10%
+
+chosen on validation corners: GP_cap_avg -> official corners: gates 97.69%, parity 96.86%
+EXP_ACC DONE
+===== finished Monday 09 November 2026 03:17:26 PM IST
