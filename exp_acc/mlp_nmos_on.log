@@ -1,0 +1,13 @@
+      output 0 seed 0: 86999 rows, 242 epochs, 599 s
+      output 1 seed 0: 86999 rows, 1180 epochs, 2948 s
+      output 2 seed 0: 86999 rows, 257 epochs, 653 s
+      output 3 seed 0: 86999 rows, 1043 epochs, 2619 s
+      output 0 seed 1: 86999 rows, 328 epochs, 824 s
+      output 1 seed 1: 86999 rows, 1037 epochs, 2617 s
+      output 2 seed 1: 86999 rows, 279 epochs, 657 s
+      output 3 seed 1: 86999 rows, 788 epochs, 1845 s
+      output 0 seed 2: 86999 rows, 313 epochs, 740 s
+      output 1 seed 2: 86999 rows, 743 epochs, 1755 s
+      output 2 seed 2: 86999 rows, 262 epochs, 596 s
+      output 3 seed 2: 86999 rows, 979 epochs, 2208 s
+nmos_on MLP87: 86999 rows, 18061 s

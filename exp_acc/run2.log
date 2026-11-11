@@ -1,0 +1,43 @@
+===== step1_gpx Monday 09 November 2026 07:45:30 PM IST
+nmos_on GPBag87X: 86999 rows, 826 s
+  nmos_on GPBag87   ig at Vds=0: median  21.50%  cold median 102.91%  max   480.8%
+  nmos_on GPBag87   ib at Vds=0: median   2.45%  cold median  12.53%  max    48.6%
+  nmos_on GPBag87X  ig at Vds=0: median   4.44%  cold median   7.32%  max    32.2%
+  nmos_on GPBag87X  ib at Vds=0: median   2.54%  cold median  12.67%  max    48.1%
+pmos_on GPBag87X: 86999 rows, 856 s
+  pmos_on GPBag87   ig at Vds=0: median   0.77%  cold median   3.46%  max    40.2%
+  pmos_on GPBag87   ib at Vds=0: median   2.39%  cold median   7.66%  max    38.9%
+  pmos_on GPBag87X  ig at Vds=0: median   0.60%  cold median   1.08%  max     6.8%
+  pmos_on GPBag87X  ib at Vds=0: median   2.52%  cold median   7.79%  max    38.9%
+===== step2_mlp (4 cases in parallel, 1 thread each) Monday 09 November 2026 08:13:38 PM IST
+nmos_off MLP87: 86999 rows, 15340 s
+nmos_on MLP87: 86999 rows, 18061 s
+pmos_off MLP87: 86999 rows, 9709 s
+pmos_on MLP87: 86999 rows, 18964 s
+===== evaluate2 Tuesday 10 November 2026 01:29:43 AM IST
+nmos_on   GPBag87   val mean-median 0.365%  test 0.402%
+nmos_on   GPBag87X  val mean-median 0.306%  test 0.316%
+nmos_on   MLP87     val mean-median 0.718%  test 0.751%
+nmos_on   GPX+MLP   val mean-median 0.430%  test 0.435%
+nmos_off  GPBag87   val mean-median 0.261%  test 0.269%
+nmos_off  GPBag87X  val mean-median 0.261%  test 0.269%
+nmos_off  MLP87     val mean-median 0.378%  test 0.382%
+nmos_off  GPX+MLP   val mean-median 0.254%  test 0.268%
+pmos_on   GPBag87   val mean-median 0.329%  test 0.334%
+pmos_on   GPBag87X  val mean-median 0.267%  test 0.282%
+pmos_on   MLP87     val mean-median 0.704%  test 0.728%
+pmos_on   GPX+MLP   val mean-median 0.402%  test 0.411%
+pmos_off  GPBag87   val mean-median 3.942%  test 4.294%
+pmos_off  GPBag87X  val mean-median 3.942%  test 4.294%
+pmos_off  MLP87     val mean-median 6.437%  test 6.140%
+pmos_off  GPX+MLP   val mean-median 5.096%  test 5.017%
+GPBag87       VAL gates 97.50% | TEST gates 97.37% med 0.71% p95 6.19% NOR2-11 74.41% | parity 97.11% med 2.33% bias -2.10%
+GPX           VAL gates 98.61% | TEST gates 98.65% med 0.67% p95 4.90% NOR2-11 96.99% | parity 97.11% med 2.35% bias -2.12%
+MLP87         VAL gates 97.19% | TEST gates 97.52% med 1.66% p95 7.51% NOR2-11 97.69% | parity 96.67% med 2.79% bias -1.87%
+GPX+MLP       VAL gates 98.19% | TEST gates 98.34% med 0.99% p95 5.43% NOR2-11 97.68% | parity 97.12% med 2.38% bias -1.86%
+GPX|ON:MLP    VAL gates 98.67% | TEST gates 98.72% med 0.63% p95 4.72% NOR2-11 98.26% | parity 97.11% med 2.35% bias -2.12%
+GPX|ON:blend  VAL gates 98.64% | TEST gates 98.68% med 0.66% p95 4.74% NOR2-11 97.64% | parity 97.11% med 2.35% bias -2.12%
+
+chosen on validation corners: GPX|ON:MLP -> official corners: gates 98.72%, parity 97.11%
+ROUND2 DONE
+===== finished Tuesday 10 November 2026 01:40:15 AM IST

@@ -1,0 +1,19 @@
+      output 0 seed 0: 47268 rows, 384 epochs, 512 s
+      output 1 seed 0: 47268 rows, 260 epochs, 347 s
+      output 2 seed 0: 47268 rows, 233 epochs, 311 s
+      output 0 seed 1: 47268 rows, 368 epochs, 491 s
+      output 1 seed 1: 47268 rows, 290 epochs, 387 s
+      output 2 seed 1: 47268 rows, 244 epochs, 327 s
+      output 0 seed 2: 47268 rows, 317 epochs, 423 s
+      output 1 seed 2: 47268 rows, 257 epochs, 346 s
+      output 2 seed 2: 47268 rows, 281 epochs, 388 s
+      output 0 seed 0: 52132 rows, 294 epochs, 446 s
+      output 1 seed 0: 52132 rows, 212 epochs, 324 s
+      output 2 seed 0: 52132 rows, 898 epochs, 1338 s
+      output 0 seed 1: 52132 rows, 336 epochs, 500 s
+      output 1 seed 1: 52132 rows, 214 epochs, 320 s
+      output 2 seed 1: 52132 rows, 956 epochs, 1429 s
+      output 0 seed 2: 52132 rows, 407 epochs, 606 s
+      output 1 seed 2: 52132 rows, 216 epochs, 323 s
+      output 2 seed 2: 52132 rows, 553 epochs, 890 s
+pmos_off MLP87: 86999 rows, 9709 s
