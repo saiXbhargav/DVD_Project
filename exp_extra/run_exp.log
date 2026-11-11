@@ -1,0 +1,29 @@
+nmos_on GP_cap: trained on 46999 rows in 435 s
+nmos_on MLP_ens: trained on 46999 rows in 434 s
+  nmos_on   GP_7k    val: mean-median 0.472%  id:0.52/4.2 ig:0.37/5.9 is:0.50/4.0 ib:0.49/3.0
+  nmos_on   GP_cap   val: mean-median 0.460%  id:0.49/4.2 ig:0.42/4.6 is:0.49/4.3 ib:0.43/2.4
+  nmos_on   MLP_ens  val: mean-median 1.144%  id:1.16/5.8 ig:1.07/4.6 is:1.15/6.1 ib:1.20/4.0
+  -> nmos_on: chosen GP_cap, test mean-median 0.481%
+nmos_off GP_cap: trained on 46999 rows in 612 s
+nmos_off MLP_ens: trained on 46999 rows in 498 s
+  nmos_off  GP_7k    val: mean-median 0.366%  id:0.66/10.5 ig:0.00/0.0 is:0.62/8.9 ib:0.18/21.4
+  nmos_off  GP_cap   val: mean-median 0.325%  id:0.57/8.4 ig:0.00/0.0 is:0.55/8.1 ib:0.18/22.8
+  nmos_off  MLP_ens  val: mean-median 0.657%  id:0.87/8.0 ig:0.43/3.2 is:0.83/7.7 ib:0.50/22.6
+  -> nmos_off: chosen GP_cap, test mean-median 0.342%
+pmos_on GP_cap: trained on 46999 rows in 402 s
+pmos_on MLP_ens: trained on 46999 rows in 368 s
+  pmos_on   GP_7k    val: mean-median 0.395%  id:0.54/3.3 ig:0.10/1.0 is:0.52/3.2 ib:0.42/2.5
+  pmos_on   GP_cap   val: mean-median 0.377%  id:0.50/3.4 ig:0.11/0.9 is:0.53/3.4 ib:0.36/2.2
+  pmos_on   MLP_ens  val: mean-median 1.487%  id:1.86/6.2 ig:1.20/6.3 is:1.91/6.1 ib:0.97/3.7
+  -> pmos_on: chosen GP_cap, test mean-median 0.377%
+pmos_off GP_cap: trained on 46999 rows in 776 s
+pmos_off MLP_ens: trained on 46999 rows in 421 s
+  pmos_off  GP_7k    val: mean-median 5.601%  id:9.62/370.4 ig:2.57/72.5 is:9.72/1137.0 ib:0.49/20.1
+  pmos_off  GP_cap   val: mean-median 5.175%  id:9.08/371.7 ig:2.52/74.9 is:8.69/1378.1 ib:0.41/24.0
+  pmos_off  MLP_ens  val: mean-median 8.728%  id:8.77/240.5 ig:15.88/1262.7 is:8.55/1277.9 ib:1.71/25.2
+  -> pmos_off: chosen GP_cap, test mean-median 5.568%
+official_GP_7k   gates: acc 95.58% med 2.16% p95 10.34% bias -0.23% | parity: acc 95.33% med 4.08% p95 11.24% bias -3.67%
+all_GP_cap       gates: acc 97.68% med 1.26% p95 5.73% bias -0.19% | parity: acc 96.86% med 2.70% p95 7.89% bias -2.28%
+all_MLP_ens      gates: acc 94.48% med 4.37% p95 14.06% bias -3.11% | parity: acc 93.23% med 6.16% p95 14.91% bias -5.95%
+selected_on_val  gates: acc 97.68% med 1.26% p95 5.73% bias -0.19% | parity: acc 96.86% med 2.70% p95 7.89% bias -2.28%
+EXPERIMENT DONE

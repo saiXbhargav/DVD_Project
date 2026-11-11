@@ -1,0 +1,16 @@
+nmos_on block 1: 10000 rows, max KCL residual 1.2e-15 A, 24 s
+nmos_on block 2: 10000 rows, max KCL residual 1.3e-15 A, 21 s
+nmos_on block 3: 10000 rows, max KCL residual 1.3e-15 A, 34 s
+nmos_on block 4: 10000 rows, max KCL residual 1.2e-15 A, 23 s
+nmos_off block 1: 10000 rows, max KCL residual 5.1e-19 A, 24 s
+nmos_off block 2: 10000 rows, max KCL residual 5.2e-19 A, 33 s
+nmos_off block 3: 10000 rows, max KCL residual 3.9e-18 A, 38 s
+nmos_off block 4: 10000 rows, max KCL residual 5.2e-19 A, 35 s
+pmos_on block 1: 10000 rows, max KCL residual 6.7e-16 A, 25 s
+pmos_on block 2: 10000 rows, max KCL residual 5.9e-16 A, 23 s
+pmos_on block 3: 10000 rows, max KCL residual 5.9e-16 A, 29 s
+pmos_on block 4: 10000 rows, max KCL residual 6.2e-16 A, 34 s
+pmos_off block 1: 10000 rows, max KCL residual 1.2e-15 A, 24 s
+pmos_off block 2: 10000 rows, max KCL residual 1.4e-15 A, 29 s
+pmos_off block 3: 10000 rows, max KCL residual 1.3e-15 A, 37 s
+pmos_off block 4: 10000 rows, max KCL residual 1.1e-15 A, 22 s
