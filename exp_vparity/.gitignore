@@ -1,0 +1,4 @@
+# results still being produced / regenerated
+out/
+*.log
+__pycache__/
