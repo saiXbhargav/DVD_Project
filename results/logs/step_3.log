@@ -1,0 +1,19 @@
+exists: results/model_comparison_val.csv
+exists: models_trained/nmos_on.joblib
+exists: models_trained/nmos_off.joblib
+exists: models_trained/pmos_on.joblib
+exists: models_trained/pmos_off.joblib
+/home/nitin/DVD/final_method.py:342: RuntimeWarning: divide by zero encountered in divide
+  e = 100 * np.abs(P - Y) / np.abs(Y)
+/home/nitin/DVD/final_method.py:342: RuntimeWarning: divide by zero encountered in divide
+  e = 100 * np.abs(P - Y) / np.abs(Y)
+    case      split  id_median_pct  ig_median_pct  is_median_pct  ib_median_pct  mean_of_medians_pct  ge1e11_median_pct
+ nmos_on validation          0.357          0.155          0.341          0.372                0.306              0.248
+ nmos_on       test          0.362          0.160          0.360          0.381                0.316              0.259
+nmos_off validation          0.468          0.001          0.449          0.125                0.261              0.146
+nmos_off       test          0.482          0.001          0.463          0.130                0.269              0.137
+ pmos_on validation          0.332          0.051          0.328          0.359                0.267              0.253
+ pmos_on       test          0.359          0.058          0.356          0.354                0.282              0.269
+pmos_off validation          6.393          3.138          6.489          0.439                4.115              0.265
+pmos_off       test          7.001          3.085          7.293          0.402                4.445              0.283
+STEP 3 DONE

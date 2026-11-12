@@ -1,0 +1,7 @@
+depth 0: 4 distinct NAND2 situations
+    level 0: 4 NAND2 situations solved
+PARITY (voltage-aware) depth 0: accuracy 96.41%, median 3.04%, p95 8.56%, bias -2.83% (2462 s)
+depth 1: 20 distinct NAND2 situations
+    level 1: 16 NAND2 situations solved
+PARITY (voltage-aware) depth 1: accuracy 98.24%, median 1.18%, p95 5.39%, bias +0.40% (8302 s)
+STEP 9 DONE

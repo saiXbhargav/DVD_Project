@@ -1,0 +1,4 @@
+exists: data/corners.csv
+exists: data/corners_w.csv
+200 corners; VDD 0.811-0.989 V, T -40-124 C, Wn 17.5-128.0 nm, Wp 16.4-127.2 nm
+STEP 3 DONE

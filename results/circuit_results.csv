@@ -1,0 +1,4 @@
+circuit,setup,version,n,spice_median_A,ml_median_A,bias_pct,mean_abs_err_pct,median_err_pct,p95_err_pct,accuracy_pct
+parity8,varying widths,A: SPICE node voltages,51200,7.603e-06,7.445e-06,-2.285,3.089,2.502,8.181,96.91
+parity8,varying widths,B: ML node voltages,51200,7.603e-06,7.506e-06,-0.9559,2.923,2.139,7.884,97.08
+parity8,fixed sizes,A: SPICE node voltages,51200,5.384e-06,5.188e-06,-2.116,2.889,2.351,7.392,97.11

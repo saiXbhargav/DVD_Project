@@ -1,0 +1,14 @@
+datasets (10,000 rows per case)
+    case     n  max_abs_residual_A  median_abs_residual_A  max_rel_residual  median_rel_residual  frac_rel_below_1e-6  frac_abs_below_1e-15A
+ nmos_on 10000           1.004e-14              2.077e-16         3.142e-03            1.747e-11            9.778e-01              8.957e-01
+nmos_off 10000           8.235e-18              4.890e-22         8.584e-11            8.758e-12            1.000e+00              1.000e+00
+ pmos_on 10000           9.879e-15              7.702e-17         6.529e-03            1.396e-11            9.848e-01              9.604e-01
+pmos_off 10000           1.317e-15              8.191e-17         1.195e-01            1.408e-04            2.334e-01              9.998e-01
+extra training rows (80,000 per case)
+    case     n  max_abs_residual_A  median_abs_residual_A  max_rel_residual  median_rel_residual  frac_rel_below_1e-6  frac_abs_below_1e-15A
+ nmos_on 80000           1.046e-14              2.020e-16         2.099e-02            1.733e-11            9.789e-01              8.988e-01
+nmos_off 80000           4.688e-17              4.780e-22         9.938e-11            8.875e-12            1.000e+00              1.000e+00
+ pmos_on 80000           1.032e-14              7.248e-17         4.158e-03            1.437e-11            9.839e-01              9.598e-01
+pmos_off 80000           1.426e-15              8.108e-17         1.161e-01            1.392e-04            2.303e-01              9.995e-01
+saved figures/trend_ioff_vs_temp.png, trend_ioff_vs_vth0.png, trend_ig_vs_toxe.png
+STEP 2 DONE

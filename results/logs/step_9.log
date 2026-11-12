@@ -1,0 +1,4 @@
+/home/nitin/DVD/final_method.py:342: RuntimeWarning: divide by zero encountered in divide
+  e = 100 * np.abs(P - Y) / np.abs(Y)
+saved figures in figures/
+STEP 9 DONE

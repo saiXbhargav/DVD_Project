@@ -1,0 +1,5 @@
+varying widths (main setup)
+exists: results/gate_spice_w.csv
+fixed sizes (reference)
+exists: results/gate_spice.csv
+STEP 4 DONE

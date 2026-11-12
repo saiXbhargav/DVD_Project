@@ -1,0 +1,19 @@
+1. input artifacts (MANIFEST.sha256)
+  55/55 input files identical to the ones behind the reported results
+2. results vs expected_results/
+  IDENTICAL  results/kcl_check.csv            same text
+  IDENTICAL  results/model_comparison_val.csv same text
+  IDENTICAL  results/transistor_metrics.csv   same text
+  IDENTICAL  results/summary.csv              same text
+  IDENTICAL  results/gate_results.csv         same text
+  IDENTICAL  results/node_voltages.csv        same text
+  IDENTICAL  results/gate_results_fixed.csv   same text
+  IDENTICAL  results/gate_ml.csv              3600 rows, values equal to 7 significant digits
+  IDENTICAL  results/vparity_summary.csv      same text
+3. headline numbers (results/summary.csv)
+  varying widths  A: SPICE node voltages   gates 98.69 %   parity checker 96.91 %
+  varying widths  B: ML node voltages      gates 98.15 %   parity checker 97.08 %
+  fixed sizes     A: SPICE node voltages   gates 98.93 %   parity checker 97.11 %
+  optional voltage-aware parity checker, depth 0: 96.41 %
+  optional voltage-aware parity checker, depth 1: 98.24 %
+VERIFY: PASSED 

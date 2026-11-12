@@ -1,0 +1,42 @@
+  AND2  00: 2 sweeps, 761 s
+  INV   0: 2 sweeps, 157 s
+  INV   1: 2 sweeps, 167 s
+  NAND2 00: 2 sweeps, 434 s
+  AND2  01: 5 sweeps, 1716 s
+  AND2  10: 5 sweeps, 1961 s
+  NAND2 01: 5 sweeps, 879 s
+  NAND2 10: 5 sweeps, 1127 s
+  AND2  11: 8 sweeps, 3062 s
+  NOR2  01: 5 sweeps, 890 s
+  NAND2 11: 8 sweeps, 1833 s
+  NOR2  11: 2 sweeps, 372 s
+  NOR2  00: 8 sweeps, 1731 s
+  NOR2  10: 7 sweeps, 1564 s
+  OR2   11: 2 sweeps, 687 s
+  OR2   01: 5 sweeps, 1590 s
+  OR2   10: 7 sweeps, 2285 s
+  OR2   00: 8 sweeps, 2695 s
+varying-width gates done in 6488 s
+VARYING WIDTHS version A: gates 98.69% (median 0.63%, p95 5.03%, bias +0.08%)
+VARYING WIDTHS version B: gates 98.15% (median 1.03%, p95 6.28%, bias +0.28%)
+ gate pattern  accuracy_pct_A  accuracy_pct_B  bias_pct_A  bias_pct_B
+ AND2      00           98.23           97.80       -0.12        0.40
+ AND2      01           98.74           97.88        0.35        0.55
+ AND2      10           98.47           98.05        0.05        0.07
+ AND2      11           98.64           98.13        0.38        0.63
+  INV       0           99.14           99.05       -0.14        0.09
+  INV       1           98.22           97.79       -0.13        0.41
+NAND2      00           99.55           99.46        0.08        0.04
+NAND2      01           99.17           97.47       -0.13        1.33
+NAND2      10           99.49           99.48        0.02        0.01
+NAND2      11           98.28           97.06       -0.13        0.85
+ NOR2      00           99.17           98.52       -0.13        0.17
+ NOR2      01           98.37           96.74       -0.14        1.69
+ NOR2      10           99.44           99.48        0.05        0.05
+ NOR2      11           96.28           96.31        0.90        0.88
+  OR2      00           97.67           97.32        1.26        0.62
+  OR2      01           99.00           97.94        0.08        1.02
+  OR2      10           99.32           99.18       -0.04       -0.03
+  OR2      11           99.14           99.05       -0.14        0.13
+FIXED SIZES (reference) version A: gates 98.93% (median 0.48%)
+STEP 6 DONE

@@ -1,0 +1,12 @@
+VARYING WIDTHS version A: gates 98.69% | parity 96.91% (median 2.50%, p95 8.18%, bias -2.29%)
+VARYING WIDTHS version B: gates 98.15% | parity 97.08% (median 2.14%, p95 7.88%, bias -0.96%)
+FIXED SIZES (reference) version A: gates 98.93% | parity 97.11% (bias -2.12%)
+         setup                version  gate_acc  gate_median  gate_p95  gate_bias  parity_acc  parity_median  parity_p95  parity_bias
+varying widths A: SPICE node voltages    98.685        0.626     5.030      0.076      96.911          2.502       8.181       -2.285
+varying widths    B: ML node voltages    98.150        1.028     6.277      0.282      97.077          2.139       7.884       -0.956
+   fixed sizes A: SPICE node voltages    98.930        0.476     4.022      0.043      97.111          2.351       7.392       -2.116
+circuit          setup                version     n  spice_median_A  ml_median_A  bias_pct  mean_abs_err_pct  median_err_pct  p95_err_pct  accuracy_pct
+parity8 varying widths A: SPICE node voltages 51200             0.0          0.0   -2.2852            3.0894          2.5025       8.1812       96.9106
+parity8 varying widths    B: ML node voltages 51200             0.0          0.0   -0.9559            2.9231          2.1391       7.8842       97.0769
+parity8    fixed sizes A: SPICE node voltages 51200             0.0          0.0   -2.1163            2.8885          2.3509       7.3922       97.1115
+STEP 8 DONE

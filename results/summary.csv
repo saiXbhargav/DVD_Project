@@ -1,0 +1,4 @@
+setup,version,gate_acc,gate_median,gate_p95,gate_bias,parity_acc,parity_median,parity_p95,parity_bias
+varying widths,A: SPICE node voltages,98.69,0.6257,5.03,0.07589,96.91,2.502,8.181,-2.285
+varying widths,B: ML node voltages,98.15,1.028,6.277,0.2815,97.08,2.139,7.884,-0.9559
+fixed sizes,A: SPICE node voltages,98.93,0.4757,4.022,0.04349,97.11,2.351,7.392,-2.116

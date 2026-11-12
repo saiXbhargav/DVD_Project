@@ -1,0 +1,5 @@
+varying widths (main setup)
+exists: results/circuit_spice_w.csv
+fixed sizes (reference)
+exists: results/circuit_spice.csv
+STEP 5 DONE
