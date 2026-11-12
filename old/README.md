@@ -1,3 +1,26 @@
+# old/: earlier pipeline and all experiments (archive)
+
+This folder is a snapshot of the project before the final method was moved to the top level. Nothing here is needed to reproduce the final results; see `../README.md` for that.
+
+| Folder / file | What it is |
+|---|---|
+| `01_…08_*.py`, `run_all.sh`, `results/`, `models_trained/`, `figures/`, `netlists/` | first complete pipeline: 7,000-row GP models, fixed gate sizes (gates 95.6 %, parity 95.3 %) |
+| `exp_extra/` | 40,000 extra training rows per case; GP_cap / MLP_ens candidates |
+| `exp_acc/` | 40,000 more rows; averaged GP (GPBag87), plain-voltage features for ON (GPX), MLP comparisons, size study, fresh-corner check, version B (ML node voltages) |
+| `exp_width/` | varying widths: per-corner Wn / Wp, new gate and parity SPICE |
+| `exp_vg/` | real gate voltage of each transistor (final method), and the rejected off-rail retraining experiment |
+| `exp_vparity/` | voltage-aware parity checker (optional extension) |
+| `config.py`, `circuits.py`, `ml_utils.py`, `spice_utils.py` | copies of the shared modules (identical to the top level), so the code here still runs |
+| `data`, `models` | links to `../data`, `../models` (same files) |
+
+The scripts run from this folder as before, e.g. `cd old && ./run_all.sh` or `cd old/exp_vg && python3 eval_vg.py`. Large generated files (trained models, extra data) are not in git. They stay on the project machine.
+
+The step-by-step history of the accuracy is in `../ACCURACY_LOG.md`.
+
+---
+
+*Original README of the first pipeline:*
+
 # ML-Driven PVT-Aware Leakage Estimation
 
 Digital VLSI Design course project. Single-transistor SPICE data trains ML models of the four terminal currents. Those models then predict the leakage of logic gates and of an 8-bit parity checker, and every prediction is checked against SPICE.

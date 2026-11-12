@@ -4,6 +4,7 @@
 #   ./run_all.sh 3 6 7 8    only the listed steps
 # Each step logs to results/log_<step>.txt. Safe to run under nohup:
 #   nohup ./run_all.sh > results/run_all.log 2>&1 < /dev/null &
+set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p results
 steps=("$@")

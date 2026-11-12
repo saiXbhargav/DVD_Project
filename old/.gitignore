@@ -1,0 +1,6 @@
+# same rules as the top-level .gitignore had for the first pipeline
+__pycache__/
+results/scratch_*.txt
+results/scratch_done.txt
+results/circuit_spice_raw.csv
+results/old_run1/
