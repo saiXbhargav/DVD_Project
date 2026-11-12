@@ -1,0 +1,3 @@
+out/circuit_spice_w_raw*.csv
+out/*_smoke.csv
+__pycache__/

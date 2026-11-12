@@ -1,0 +1,65 @@
+===== spice_w Wednesday 11 November 2026 10:25:13 PM IST
+200 corners; Wn 17.5-128.0 nm, Wp 16.4-127.2 nm
+INV: 400 sims, failed 0, max KCL mismatch 6.9e-08 (3 s)
+NAND2: 800 sims, failed 0, max KCL mismatch 1.7e-06 (12 s)
+NOR2: 800 sims, failed 0, max KCL mismatch 1.5e-05 (24 s)
+AND2: 800 sims, failed 0, max KCL mismatch 7.0e-08 (31 s)
+OR2: 800 sims, failed 0, max KCL mismatch 1.2e-07 (42 s)
+gate outputs off their logic level (> 5 % of VDD): 5
+saved gate_spice_w.csv
+  parity SPICE: 20/200 corners (414 s)
+  parity SPICE: 40/200 corners (800 s)
+  parity SPICE: 60/200 corners (1340 s)
+  parity SPICE: 80/200 corners (1771 s)
+  parity SPICE: 100/200 corners (2259 s)
+  parity SPICE: 120/200 corners (2675 s)
+  parity SPICE: 140/200 corners (3149 s)
+  parity SPICE: 160/200 corners (3638 s)
+  parity SPICE: 180/200 corners (4062 s)
+  parity SPICE: 200/200 corners (4514 s)
+parity SPICE: 51200 sims, failed 0, logic errors 0, max KCL mismatch 8.7e-08
+saved circuit_spice_w.csv
+===== eval_w Wednesday 11 November 2026 11:41:11 PM IST
+  AND2  00: 2 sweeps, 776 s
+  INV   0: 2 sweeps, 160 s
+  INV   1: 2 sweeps, 170 s
+  NAND2 00: 2 sweeps, 439 s
+  AND2  01: 5 sweeps, 1721 s
+  AND2  10: 5 sweeps, 1967 s
+  NAND2 01: 5 sweeps, 894 s
+  NAND2 10: 5 sweeps, 1138 s
+  AND2  11: 8 sweeps, 3081 s
+  NOR2  01: 5 sweeps, 899 s
+  NAND2 11: 8 sweeps, 1839 s
+  NOR2  11: 2 sweeps, 375 s
+  NOR2  00: 8 sweeps, 1758 s
+  NOR2  10: 7 sweeps, 1573 s
+  OR2   11: 2 sweeps, 689 s
+  OR2   01: 5 sweeps, 1597 s
+  OR2   10: 7 sweeps, 2290 s
+  OR2   00: 8 sweeps, 2709 s
+gates done in 6516 s
+VARYING WIDTHS version A: gates 98.25% (med 0.81%, p95 7.33%, bias -0.21%) | parity 96.91% (med 2.50%, bias -2.29%)
+VARYING WIDTHS version B: gates 97.91% (med 1.08%, p95 7.77%, bias +0.07%) | parity 97.08% (med 2.14%, bias -0.96%)
+composition (sum of SPICE NAND2 vs SPICE circuit): accuracy 97.28%, bias -2.21%
+ gate pattern  accuracy_pct_A  accuracy_pct_B  bias_pct_A  bias_pct_B
+ AND2      00           98.22           97.80       -0.14        0.40
+ AND2      01           97.31           97.41       -1.61       -0.41
+ AND2      10           98.12           97.90       -0.58       -0.06
+ AND2      11           97.08           97.35       -2.11       -1.65
+  INV       0           99.14           99.05       -0.14        0.09
+  INV       1           98.22           97.79       -0.13        0.41
+NAND2      00           99.55           99.46        0.08        0.04
+NAND2      01           99.17           97.47       -0.13        1.33
+NAND2      10           99.49           99.48        0.02        0.01
+NAND2      11           98.28           97.06       -0.13        0.85
+ NOR2      00           99.17           98.52       -0.13        0.17
+ NOR2      01           98.37           96.74       -0.14        1.69
+ NOR2      10           99.44           99.48        0.05        0.05
+ NOR2      11           96.28           96.31        0.90        0.88
+  OR2      00           93.67           94.12       -4.31       -3.77
+  OR2      01           98.53           98.11       -0.87        0.25
+  OR2      10           99.23           99.23       -0.29       -0.06
+  OR2      11           99.14           99.05       -0.14        0.13
+EVAL_W DONE
+===== finished Thursday 12 November 2026 01:29:48 AM IST
