@@ -1,0 +1,17 @@
+mean_median,id_median,ig_median,is_median,ib_median,median_ge_1e11,p95_ge_1e11,case,model,validation
+0.3063,0.3571,0.1553,0.3409,0.3718,0.2479,1.969,nmos_on,GPX (current final),original validation (gate on rail)
+0.8196,0.9731,0.3329,0.925,1.047,0.6385,18.5,nmos_on,GPX (current final),off-rail validation
+0.9652,1.202,0.3215,1.242,1.095,0.8283,5.496,nmos_on,VG (gate-voltage-aware),original validation (gate on rail)
+1.39,1.727,0.4578,1.753,1.62,1.206,14.5,nmos_on,VG (gate-voltage-aware),off-rail validation
+0.2608,0.4683,0.001003,0.4486,0.1252,0.1464,2.264,nmos_off,GPX (current final),original validation (gate on rail)
+0.5691,0.997,0.001308,0.9717,0.3063,0.2136,39.85,nmos_off,GPX (current final),off-rail validation
+0.8389,1.497,0.003715,1.45,0.4047,0.4341,5.959,nmos_off,VG (gate-voltage-aware),original validation (gate on rail)
+1.048,1.844,0.004127,1.804,0.5392,0.4975,24.16,nmos_off,VG (gate-voltage-aware),off-rail validation
+0.2675,0.3321,0.0507,0.3282,0.3589,0.2534,1.594,pmos_on,GPX (current final),original validation (gate on rail)
+0.8635,0.7967,0.7743,0.8076,1.075,0.7454,15.64,pmos_on,GPX (current final),off-rail validation
+0.9944,0.8552,1.069,0.8678,1.186,0.8262,4.328,pmos_on,VG (gate-voltage-aware),original validation (gate on rail)
+1.428,1.314,1.485,1.328,1.586,1.229,12.92,pmos_on,VG (gate-voltage-aware),off-rail validation
+3.942,6.393,2.445,6.489,0.4386,0.2651,2.081,pmos_off,GPX (current final),original validation (gate on rail)
+10.3,17.31,3.985,19.24,0.6497,3.232,73.7,pmos_off,GPX (current final),off-rail validation
+4.701,7.335,3.559,7.31,0.5993,3.155,7.46,pmos_off,VG (gate-voltage-aware),original validation (gate on rail)
+8.791,13.86,4.763,15.84,0.7036,4.065,47.3,pmos_off,VG (gate-voltage-aware),off-rail validation

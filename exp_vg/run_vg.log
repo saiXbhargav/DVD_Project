@@ -1,0 +1,99 @@
+===== gen_vg Thursday 12 November 2026 07:43:44 AM IST
+nmos_on_vg_01.csv: 10000 rows, max KCL residual 1.0e-15 A, 28 s
+nmos_on_vg_02.csv: 10000 rows, max KCL residual 1.0e-15 A, 35 s
+nmos_on_vg_03.csv: 10000 rows, max KCL residual 1.2e-15 A, 24 s
+nmos_on_vg_04.csv: 10000 rows, max KCL residual 1.3e-15 A, 30 s
+nmos_on_vg_val.csv: 2000 rows, max KCL residual 1.3e-15 A, 5 s
+nmos_off_vg_01.csv: 10000 rows, max KCL residual 1.4e-16 A, 58 s
+nmos_off_vg_02.csv: 10000 rows, max KCL residual 1.1e-16 A, 45 s
+nmos_off_vg_03.csv: 10000 rows, max KCL residual 1.5e-16 A, 24 s
+nmos_off_vg_04.csv: 10000 rows, max KCL residual 1.2e-16 A, 38 s
+nmos_off_vg_val.csv: 2000 rows, max KCL residual 1.3e-16 A, 3 s
+pmos_on_vg_01.csv: 10000 rows, max KCL residual 6.1e-16 A, 22 s
+pmos_on_vg_02.csv: 10000 rows, max KCL residual 5.7e-16 A, 34 s
+pmos_on_vg_03.csv: 10000 rows, max KCL residual 5.5e-16 A, 33 s
+pmos_on_vg_04.csv: 10000 rows, max KCL residual 5.6e-16 A, 32 s
+pmos_on_vg_val.csv: 2000 rows, max KCL residual 5.2e-16 A, 5 s
+pmos_off_vg_01.csv: 10000 rows, max KCL residual 1.1e-15 A, 20 s
+pmos_off_vg_02.csv: 10000 rows, max KCL residual 1.5e-15 A, 40 s
+pmos_off_vg_03.csv: 10000 rows, max KCL residual 1.2e-15 A, 28 s
+pmos_off_vg_04.csv: 10000 rows, max KCL residual 1.0e-15 A, 44 s
+pmos_off_vg_val.csv: 2000 rows, max KCL residual 8.1e-16 A, 12 s
+===== eval_vg, current models Thursday 12 November 2026 07:53:04 AM IST
+  AND2  00: 2 sweeps, 760 s
+  INV   0: 2 sweeps, 157 s
+  INV   1: 2 sweeps, 168 s
+  NAND2 00: 2 sweeps, 429 s
+  AND2  01: 5 sweeps, 1706 s
+  AND2  10: 5 sweeps, 1942 s
+  NAND2 01: 5 sweeps, 883 s
+  NAND2 10: 5 sweeps, 1125 s
+  AND2  11: 8 sweeps, 3083 s
+  NOR2  01: 5 sweeps, 888 s
+  NAND2 11: 8 sweeps, 1821 s
+  NOR2  11: 2 sweeps, 371 s
+  NOR2  00: 8 sweeps, 1734 s
+  NOR2  10: 7 sweeps, 1575 s
+  OR2   11: 2 sweeps, 688 s
+  OR2   01: 5 sweeps, 1586 s
+  OR2   10: 7 sweeps, 2284 s
+  OR2   00: 8 sweeps, 2684 s
+varying-width gates done in 6447 s
+VARYING WIDTHS + VG version A: gates 98.69% (med 0.63%, p95 5.03%, bias +0.08%) | parity 96.91% (med 2.50%, bias -2.29%)
+VARYING WIDTHS + VG version B: gates 98.15% (med 1.03%, p95 6.28%, bias +0.28%) | parity 97.08% (med 2.14%, bias -0.96%)
+FIXED SIZES (reference) version A: gates 98.93% (med 0.48%) | parity 97.11% (bias -2.12%)
+ gate pattern  accuracy_pct_A  accuracy_pct_B  bias_pct_A  bias_pct_B
+ AND2      00           98.23           97.80       -0.12        0.40
+ AND2      01           98.74           97.88        0.35        0.55
+ AND2      10           98.47           98.05        0.05        0.07
+ AND2      11           98.64           98.13        0.38        0.63
+  INV       0           99.14           99.05       -0.14        0.09
+  INV       1           98.22           97.79       -0.13        0.41
+NAND2      00           99.55           99.46        0.08        0.04
+NAND2      01           99.17           97.47       -0.13        1.33
+NAND2      10           99.49           99.48        0.02        0.01
+NAND2      11           98.28           97.06       -0.13        0.85
+ NOR2      00           99.17           98.52       -0.13        0.17
+ NOR2      01           98.37           96.74       -0.14        1.69
+ NOR2      10           99.44           99.48        0.05        0.05
+ NOR2      11           96.28           96.31        0.90        0.88
+  OR2      00           97.67           97.32        1.26        0.62
+  OR2      01           99.00           97.94        0.08        1.02
+  OR2      10           99.32           99.18       -0.04       -0.03
+  OR2      11           99.14           99.05       -0.14        0.13
+EVAL_VG DONE
+===== train_vg Thursday 12 November 2026 09:41:44 AM IST
+nmos_on: off-rail rows 40000; share positive (hi, g, lo, b) = [0.    0.007 1.    1.   ]
+  trained VG_nmos_on on 126999 rows in 929 s; KCL-derived current index None
+  GPX (current final)      original validation (gate on rail)   mean-median 0.306%  >=1e-11 A median 0.248% p95 1.97%
+  GPX (current final)      off-rail validation                  mean-median 0.820%  >=1e-11 A median 0.638% p95 18.50%
+  VG (gate-voltage-aware)  original validation (gate on rail)   mean-median 0.965%  >=1e-11 A median 0.828% p95 5.50%
+  VG (gate-voltage-aware)  off-rail validation                  mean-median 1.390%  >=1e-11 A median 1.206% p95 14.50%
+nmos_off: off-rail rows 40000; share positive (hi, g, lo, b) = [0.    0.997 0.454 1.   ]
+  trained VG_nmos_off on 126999 rows in 1053 s; KCL-derived current index 2
+  GPX (current final)      original validation (gate on rail)   mean-median 0.261%  >=1e-11 A median 0.146% p95 2.26%
+  GPX (current final)      off-rail validation                  mean-median 0.569%  >=1e-11 A median 0.214% p95 39.85%
+  VG (gate-voltage-aware)  original validation (gate on rail)   mean-median 0.839%  >=1e-11 A median 0.434% p95 5.96%
+  VG (gate-voltage-aware)  off-rail validation                  mean-median 1.048%  >=1e-11 A median 0.497% p95 24.16%
+pmos_on: off-rail rows 40000; share positive (hi, g, lo, b) = [0. 1. 1. 0.]
+  trained VG_pmos_on on 126999 rows in 1041 s; KCL-derived current index None
+  GPX (current final)      original validation (gate on rail)   mean-median 0.267%  >=1e-11 A median 0.253% p95 1.59%
+  GPX (current final)      off-rail validation                  mean-median 0.863%  >=1e-11 A median 0.745% p95 15.64%
+  VG (gate-voltage-aware)  original validation (gate on rail)   mean-median 0.994%  >=1e-11 A median 0.826% p95 4.33%
+  VG (gate-voltage-aware)  off-rail validation                  mean-median 1.428%  >=1e-11 A median 1.229% p95 12.92%
+pmos_off: off-rail rows 40000; share positive (hi, g, lo, b) = [0.349 0.054 1.    0.   ]
+  trained VG_pmos_off on 126999 rows in 1039 s; KCL-derived current index 0
+  GPX (current final)      original validation (gate on rail)   mean-median 3.942%  >=1e-11 A median 0.265% p95 2.08%
+  GPX (current final)      off-rail validation                  mean-median 10.295%  >=1e-11 A median 3.232% p95 73.70%
+  VG (gate-voltage-aware)  original validation (gate on rail)   mean-median 4.701%  >=1e-11 A median 3.155% p95 7.46%
+  VG (gate-voltage-aware)  off-rail validation                  mean-median 8.791%  >=1e-11 A median 4.065% p95 47.30%
+TRAIN_VG DONE
+===== eval_vg, new models Thursday 12 November 2026 10:52:03 AM IST
+  AND2  00: 4 sweeps, 2159 s
+  INV   0: 2 sweeps, 225 s
+  AND2  01: 5 sweeps, 2435 s
+  INV   1: 2 sweeps, 240 s
+  NAND2 00: 4 sweeps, 1224 s
+  AND2  10: 7 sweeps, 3879 s
+  NAND2 01: 5 sweeps, 1257 s
+  AND2  11: 8 sweeps, 4367 s
