@@ -1,0 +1,33 @@
+===== waiting for the official version B results Wednesday 11 November 2026 08:19:42 PM IST
+===== official results saved; stopping ml_nodes.py Wednesday 11 November 2026 09:29:04 PM IST
+official version A: gates 98.65% (med 0.67%, p95 4.90%, bias -0.23%) | parity 97.11% (med 2.35%, bias -2.12%)
+official version B: gates 98.24% (med 0.94%, p95 6.41%, bias +0.18%) | parity 97.65% (med 1.52%, bias -0.02%)
+===== fresh corners, parallel Wednesday 11 November 2026 09:29:09 PM IST
+  fresh AND2  00: 2 sweeps, 406 s
+  fresh INV   0: 2 sweeps, 83 s
+  fresh AND2  01: 3 sweeps, 543 s
+  fresh INV   1: 2 sweeps, 88 s
+  fresh NAND2 00: 2 sweeps, 231 s
+  fresh NAND2 01: 3 sweeps, 284 s
+  fresh AND2  10: 6 sweeps, 1225 s
+  fresh NAND2 10: 6 sweeps, 709 s
+  fresh AND2  11: 8 sweeps, 1605 s
+  fresh NAND2 11: 8 sweeps, 957 s
+  fresh NOR2  11: 2 sweeps, 197 s
+  fresh NOR2  01: 6 sweeps, 565 s
+  fresh NOR2  10: 4 sweeps, 472 s
+  fresh NOR2  00: 8 sweeps, 917 s
+  fresh OR2   11: 2 sweeps, 361 s
+  fresh OR2   10: 4 sweeps, 742 s
+  fresh OR2   01: 6 sweeps, 947 s
+  fresh OR2   00: 8 sweeps, 1348 s
+fresh gates done in 3363 s
+fresh version A: gates 98.61% (med 0.71%, p95 5.65%, bias -0.20%) | parity 97.14% (med 2.14%, bias -1.92%)
+fresh version B: gates 98.29% (med 0.97%, p95 5.65%, bias +0.10%) | parity 97.81% (med 1.31%, bias -0.07%)
+ML NODES PAR DONE
+===== varying widths Wednesday 11 November 2026 10:25:13 PM IST
+VARYING WIDTHS version A: gates 98.25% (med 0.81%, p95 7.33%, bias -0.21%) | parity 96.91% (med 2.50%, bias -2.29%)
+VARYING WIDTHS version B: gates 97.91% (med 1.08%, p95 7.77%, bias +0.07%) | parity 97.08% (med 2.14%, bias -0.96%)
+composition (sum of SPICE NAND2 vs SPICE circuit): accuracy 97.28%, bias -2.21%
+EVAL_W DONE
+===== all finished Thursday 12 November 2026 01:29:48 AM IST
