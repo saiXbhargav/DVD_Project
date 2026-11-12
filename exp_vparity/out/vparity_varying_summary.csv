@@ -1,0 +1,3 @@
+setup,depth,n,accuracy_pct,median_err_pct,p95_err_pct,bias_pct
+varying,0,51200,96.41,3.042,8.56,-2.835
+varying,1,51200,98.24,1.178,5.391,0.3983
