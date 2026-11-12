@@ -1,0 +1,3 @@
+# 80,000 rows per case (84 MB): regenerate with step 1, or copy and check against MANIFEST.sha256
+*
+!.gitignore
